@@ -12,6 +12,6 @@
 
 #import "ZYFileTool.h"
 
-FOUNDATION_EXPORT double ZYFileToolDemoVersionNumber;
-FOUNDATION_EXPORT const unsigned char ZYFileToolDemoVersionString[];
+FOUNDATION_EXPORT double ZYFileToolVersionNumber;
+FOUNDATION_EXPORT const unsigned char ZYFileToolVersionString[];
 

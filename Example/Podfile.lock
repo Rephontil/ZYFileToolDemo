@@ -1,16 +1,16 @@
 PODS:
-  - ZYFileToolDemo (0.1.0)
+  - ZYFileTool (1.1.0)
 
 DEPENDENCIES:
-  - ZYFileToolDemo (from `../`)
+  - ZYFileTool (from `../`)
 
 EXTERNAL SOURCES:
-  ZYFileToolDemo:
+  ZYFileTool:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZYFileToolDemo: 49eea91f5ee2aa3656411a00d1f8dd3dd3216fea
+  ZYFileTool: 75eb952db79aa1964b9595a214fd4aebc2c2fb47
 
-PODFILE CHECKSUM: b425dab9bc83cc574d5b130523cab33716b5f41a
+PODFILE CHECKSUM: 3c71c82372de6769db9518854061c63bca4734b0
 
 COCOAPODS: 1.5.3

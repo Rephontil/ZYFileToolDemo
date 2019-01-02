@@ -1,6 +1,0 @@
-framework module ZYFileToolDemo {
-  umbrella header "ZYFileToolDemo-umbrella.h"
-
-  export *
-  module * { export * }
-}

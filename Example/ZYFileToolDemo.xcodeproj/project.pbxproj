@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2500514721DC7C28009A85B2 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 2500514621DC7C28009A85B2 /* image.png */; };
+		2500514921DC879E009A85B2 /* ZYFileTool.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2500514821DC879E009A85B2 /* ZYFileTool.podspec */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		22EB6B281168459E7BAF8945 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2500514621DC7C28009A85B2 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		2500514821DC879E009A85B2 /* ZYFileTool.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ZYFileTool.podspec; path = ../ZYFileTool.podspec; sourceTree = "<group>"; };
 		2C874B6A4608CA9DFE1756EB /* Pods_ZYFileToolDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYFileToolDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3036430CC4F4696389FF9AFA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		37FEF79CEB0D387F168B3804 /* Pods-ZYFileToolDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYFileToolDemo_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYFileToolDemo_Example/Pods-ZYFileToolDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -63,7 +65,6 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7519ECA469095544AF4B0A69 /* ZYFileToolDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZYFileToolDemo.podspec; path = ../ZYFileToolDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		85A0EF4AE6C1E3650A31E6E1 /* Pods-ZYFileToolDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYFileToolDemo_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYFileToolDemo_Example/Pods-ZYFileToolDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E7F9BDEBC213BEAEFAFB828B /* Pods_ZYFileToolDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYFileToolDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,7 +182,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				7519ECA469095544AF4B0A69 /* ZYFileToolDemo.podspec */,
+				2500514821DC879E009A85B2 /* ZYFileTool.podspec */,
 				3036430CC4F4696389FF9AFA /* README.md */,
 				22EB6B281168459E7BAF8945 /* LICENSE */,
 			);
@@ -284,6 +285,7 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				2500514921DC879E009A85B2 /* ZYFileTool.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,13 +309,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ZYFileToolDemo_Example/Pods-ZYFileToolDemo_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ZYFileToolDemo/ZYFileToolDemo.framework",
+				"${BUILT_PRODUCTS_DIR}/ZYFileTool/ZYFileTool.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZYFileToolDemo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZYFileTool.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

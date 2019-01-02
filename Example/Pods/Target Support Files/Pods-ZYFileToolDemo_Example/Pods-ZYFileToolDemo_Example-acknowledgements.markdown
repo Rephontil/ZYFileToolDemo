@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## ZYFileToolDemo
+## ZYFileTool
 
 Copyright (c) 2019 Rephontil <rephontil168@163.com>
 

@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ZYFileToolDemo'
-  s.version          = '1.1.0'
-  s.summary          = 'ZYFileToolDemo.'
+  s.name             = 'ZYFileTool'
+  s.version          = '1.2.0'
+  s.summary          = 'ZYFileTool.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,10 +30,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'ZYFileToolDemo/Classes/**/*'
+  s.source_files = 'ZYFileTool/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'ZYFileToolDemo' => ['ZYFileToolDemo/Assets/*.png']
+  #   'ZYFileTool' => ['ZYFileTool/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
