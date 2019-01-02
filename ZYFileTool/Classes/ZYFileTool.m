@@ -10,6 +10,30 @@
 
 @implementation ZYFileTool
 
++ (NSString *)homeDir{
+    return NSHomeDirectory();
+}
+
++ (NSString *)documentDir{
+    return [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
+}
+
++ (NSString *)libraryDir{
+    return [NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES) lastObject];
+}
+
++ (NSString *)cachesDir{
+    return [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject];
+}
+
++ (NSString *)preferencesDir{
+    
+    return [[self libraryDir] stringByAppendingPathComponent:@"Preferences"];
+}
+
++ (NSString *)tmpDir{
+    return NSTemporaryDirectory();
+}
 
 + (BOOL)isFileAtPath:(NSString *)path{
     BOOL status = true;
@@ -29,6 +53,16 @@
     }else{
         return false;
     }
+}
+
++ (BOOL)createDirAtPath:(NSString *)path errorBlock:(void(^)(NSError *error))errorBlock{
+    NSError *error = nil;
+    BOOL result = [[NSFileManager defaultManager] createDirectoryAtPath:path withIntermediateDirectories:YES attributes:nil error:&error];
+    if (error) {
+        errorBlock(error);
+    }
+    
+    return result;
 }
 
 + (NSDictionary<NSFileAttributeKey, id> *)attributeOfItemAtPath:(NSString *)path errorBlock:(void(^)(NSError *error))errorBlock  {
@@ -73,16 +107,15 @@
     return isDirectory;
 }
 
-
 #pragma mark 将文件大小格式化为字节
 + (NSString *)sizeFormatted:(NSString *)size {
-    /*NSByteCountFormatterCountStyle枚举
-     *NSByteCountFormatterCountStyleFile 字节为单位，采用十进制的1000bytes = 1KB
-     *NSByteCountFormatterCountStyleMemory 字节为单位，采用二进制的1024bytes = 1KB
-     *NSByteCountFormatterCountStyleDecimal KB为单位，采用十进制的1000bytes = 1KB
-     *NSByteCountFormatterCountStyleBinary KB为单位，采用二进制的1024bytes = 1KB
-     */
-//      return [NSByteCountFormatter stringFromByteCount:[size unsignedLongLongValue] countStyle:NSByteCountFormatterCountStyleFile];
+    /**************************************************************************
+     **** NSByteCountFormatterCountStyle枚举
+     **** NSByteCountFormatterCountStyleFile    字节为单位，采用十进制的1000bytes = 1KB
+     **** NSByteCountFormatterCountStyleMemory  字节为单位，采用二进制的1024bytes = 1KB
+     **** NSByteCountFormatterCountStyleDecimal KB为单位，采用十进制的1000bytes = 1KB
+     **** NSByteCountFormatterCountStyleBinary  KB为单位，采用二进制的1024bytes = 1KB
+     **************************************************************************/
     return [NSByteCountFormatter stringFromByteCount:[size longLongValue] countStyle:NSByteCountFormatterCountStyleFile];
 }
 

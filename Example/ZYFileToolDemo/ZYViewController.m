@@ -22,22 +22,28 @@
 {
     [super viewDidLoad];
     
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    
     [self initFilePath];
     
     
     [self saveImage];
     
     [self demoTest];
-    
-    [self removeFileOrDir];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)initFilePath{
-    NSString *path = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).lastObject;
-    NSString *dirPath = [path stringByAppendingPathComponent:@"ZYDirectory"];
-    [[NSFileManager defaultManager] createDirectoryAtPath:dirPath withIntermediateDirectories:YES attributes:nil error:nil];
-    self.dirPath = dirPath;
+    NSString *dirPath = [[ZYFileTool homeDir] stringByAppendingPathComponent:@"ZYDirectory"];
+    bool status = [ZYFileTool createDirAtPath:dirPath errorBlock:^(NSError * _Nonnull error) {
+        NSLog(@"error = %@",error);
+    }];
+    if (status) {
+        self.dirPath = dirPath;
+        NSLog(@"文件夹创建成功%@",self.dirPath);
+    }
 }
 
 - (void)saveImage{
@@ -84,6 +90,11 @@
     }];
     
     NSLog(@"fileSize = %@ -- listArr = %@ --totalSize = %@",fileSize, listArr, totalSize);
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+
+    [self removeFileOrDir];
 }
 
 - (void)removeFileOrDir{

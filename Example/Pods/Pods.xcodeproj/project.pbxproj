@@ -38,22 +38,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A8923239028695FE7CD020C792D86A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0A8923239028695FE7CD020C792D86A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		132540CAF012C0D131196953B47EC65E /* ZYFileTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZYFileTool.modulemap; sourceTree = "<group>"; };
 		164143D1BA5D50FD64D92BE356A2646C /* Pods-ZYFileToolDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYFileToolDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2CD66AC477E32D0C921D5A6190E08291 /* Pods-ZYFileToolDemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYFileToolDemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4139304E513A59FE6371E94AFD9A3ECD /* Pods-ZYFileToolDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZYFileToolDemo_Example.modulemap"; sourceTree = "<group>"; };
-		4A69FCAD55C2F646B44F999195D99E7F /* Pods_ZYFileToolDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYFileToolDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A69FCAD55C2F646B44F999195D99E7F /* Pods_ZYFileToolDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZYFileToolDemo_Tests.framework; path = "Pods-ZYFileToolDemo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DEFB9F80E9A21BB02870B4C99B45D00 /* Pods-ZYFileToolDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYFileToolDemo_Tests-dummy.m"; sourceTree = "<group>"; };
 		51A403DBFD2B0E7D776E9D0012B63A86 /* Pods-ZYFileToolDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYFileToolDemo_Example-dummy.m"; sourceTree = "<group>"; };
-		58D7F946EB4D295B9026F865C9BE231E /* Pods_ZYFileToolDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYFileToolDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D7F946EB4D295B9026F865C9BE231E /* Pods_ZYFileToolDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZYFileToolDemo_Example.framework; path = "Pods-ZYFileToolDemo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DC57775CBDAE7B40C61C07D1829D7D9 /* ZYFileTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZYFileTool.xcconfig; sourceTree = "<group>"; };
 		8CA2E06A3724FF043DD94FB8DBC6113C /* ZYFileTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYFileTool-prefix.pch"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95CD8A6B56A51199B0E9518EDAC58278 /* Pods-ZYFileToolDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYFileToolDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A003968489A457D11CD4E7A8854F366B /* Pods-ZYFileToolDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYFileToolDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A186BC49B3DDC85D29923C70AFF6B28C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A58DCC5791A4AA2DBA8F425BF0B1DEFD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A58DCC5791A4AA2DBA8F425BF0B1DEFD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A98433893ECEF3DCE32FACEF60B420F9 /* ZYFileTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYFileTool-umbrella.h"; sourceTree = "<group>"; };
 		AA007251A5D90EBDE143A3DB1F998651 /* Pods-ZYFileToolDemo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYFileToolDemo_Tests-resources.sh"; sourceTree = "<group>"; };
 		B19FC92ACD0A2E0C06388EEA8D2ADD4D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -70,9 +70,9 @@
 		DE8BB01C70A44FC5CE56962258BEEC65 /* ZYFileTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZYFileTool-dummy.m"; sourceTree = "<group>"; };
 		DF344156EDA2A0E70B9155C12E1CA34B /* Pods-ZYFileToolDemo_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYFileToolDemo_Example-resources.sh"; sourceTree = "<group>"; };
 		EC5BAF970D19A4996A6870455916D34F /* Pods-ZYFileToolDemo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYFileToolDemo_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		ED6CC9D903AC795F240A6D30C98E8046 /* ZYFileTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZYFileTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6CC9D903AC795F240A6D30C98E8046 /* ZYFileTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZYFileTool.framework; path = ZYFileTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B53F654413DBD407A4D456BA28226C /* Pods-ZYFileToolDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYFileToolDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FE7D9CEBE50C77E840ED386E92988C7A /* ZYFileTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ZYFileTool.podspec; sourceTree = "<group>"; };
+		FE7D9CEBE50C77E840ED386E92988C7A /* ZYFileTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ZYFileTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FF8AA591CECE7870681AD7231E2368CF /* Pods-ZYFileToolDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZYFileToolDemo_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -468,7 +468,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};

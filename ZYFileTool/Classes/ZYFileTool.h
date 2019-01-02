@@ -12,8 +12,21 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ZYFileTool : NSObject
 
+
+//Basic Methods
++ (NSString *)homeDir;
++ (NSString *)documentDir;
++ (NSString *)libraryDir;
++ (NSString *)cachesDir;
++ (NSString *)preferencesDir;
++ (NSString *)tmpDir;
+
 + (BOOL)isFileAtPath:(NSString *)path;
 + (BOOL)isDirectoryAtPath:(NSString *)path;
+
+
+//File Operations
++ (BOOL)createDirAtPath:(NSString *)path errorBlock:(void(^)(NSError *error))errorBlock;
 
 + (NSDictionary<NSFileAttributeKey, id> *)attributeOfItemAtPath:(NSString *)path errorBlock:(void(^)(NSError *error))errorBlock;
 

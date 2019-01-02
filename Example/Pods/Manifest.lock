@@ -1,5 +1,5 @@
 PODS:
-  - ZYFileTool (1.1.0)
+  - ZYFileTool (1.2.0)
 
 DEPENDENCIES:
   - ZYFileTool (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZYFileTool: 75eb952db79aa1964b9595a214fd4aebc2c2fb47
+  ZYFileTool: 028199bc2a0307bd2a24ca8b6a37fe23229b7ddb
 
 PODFILE CHECKSUM: 3c71c82372de6769db9518854061c63bca4734b0
 
