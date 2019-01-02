@@ -1,0 +1,6 @@
+framework module Pods_ZYFileToolDemo_Tests {
+  umbrella header "Pods-ZYFileToolDemo_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

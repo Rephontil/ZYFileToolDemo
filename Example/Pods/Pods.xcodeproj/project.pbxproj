@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08D5A9C5B11FAB34B5E50B01858386D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		169A7C459CC0B1E29065C4B49F7E7D09 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C22D68ED60F07538F70F5510A839C7BA /* ReplaceMe.m */; };
+		1F691926B0B747BFEC3F1A6ACF562D9A /* ZYFileTool.h in Headers */ = {isa = PBXBuildFile; fileRef = F74436043C9A46C06F70ED5732C20B88 /* ZYFileTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C1E08E4F9DF978DAAE09306BAF87D37 /* Pods-ZYFileToolDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D84665B5BF19B16139C60F8E8976D623 /* Pods-ZYFileToolDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E781649F6596B3CCBF01E7D30340A4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		595D1E9789F4ED9B7C7268F9D2DC1B6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		8B5153038CA586609CBF97E70746F1B9 /* Pods-ZYFileToolDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A403DBFD2B0E7D776E9D0012B63A86 /* Pods-ZYFileToolDemo_Example-dummy.m */; };
+		ABFF9B22ECDE2ADD19D07B9FE6645AEB /* ZYFileToolDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D757ABC450BB876E050EDC0F2F65F69 /* ZYFileToolDemo-dummy.m */; };
+		C9055BFABBE2DB282C2069165CB7B315 /* Pods-ZYFileToolDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFB9F80E9A21BB02870B4C99B45D00 /* Pods-ZYFileToolDemo_Tests-dummy.m */; };
+		D3A79523DFAF6AC982013113707CDE28 /* ZYFileToolDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA0319C21E76165DCA72B628FCD69B0 /* ZYFileToolDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8587022796827EA97344EC36C77ED9A /* Pods-ZYFileToolDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB04DC28890511D5E95D60C55AF6D957 /* Pods-ZYFileToolDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F622C1F610A8D8B3F27B9D7CD0B93975 /* ZYFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E60AAD10010A1F6BEED20EC7F99EF0 /* ZYFileTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0673130E52C08DEF5088552517B76B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2443492BAC5751A613952A258BC2210A;
+			remoteInfo = ZYFileToolDemo;
+		};
+		A26FF8446665E844E5B8EE2424DD159B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37D3CD0F499681A90C69C059EBFF4033;
+			remoteInfo = "Pods-ZYFileToolDemo_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02E60AAD10010A1F6BEED20EC7F99EF0 /* ZYFileTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZYFileTool.m; path = ZYFileToolDemo/Classes/ZYFileTool.m; sourceTree = "<group>"; };
+		05640A95BED9652BF8F174000989CB20 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		164143D1BA5D50FD64D92BE356A2646C /* Pods-ZYFileToolDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYFileToolDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2CD66AC477E32D0C921D5A6190E08291 /* Pods-ZYFileToolDemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYFileToolDemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3D757ABC450BB876E050EDC0F2F65F69 /* ZYFileToolDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZYFileToolDemo-dummy.m"; sourceTree = "<group>"; };
+		4139304E513A59FE6371E94AFD9A3ECD /* Pods-ZYFileToolDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZYFileToolDemo_Example.modulemap"; sourceTree = "<group>"; };
+		450F3A7D62C0E62B336B06D164FC254F /* ZYFileToolDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYFileToolDemo-prefix.pch"; sourceTree = "<group>"; };
+		46DBC9BDDC9C344BCDA32AD31BE8A25D /* ZYFileToolDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ZYFileToolDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4DEFB9F80E9A21BB02870B4C99B45D00 /* Pods-ZYFileToolDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYFileToolDemo_Tests-dummy.m"; sourceTree = "<group>"; };
+		51A403DBFD2B0E7D776E9D0012B63A86 /* Pods-ZYFileToolDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYFileToolDemo_Example-dummy.m"; sourceTree = "<group>"; };
+		529E7F0FAB241F4199AC0E480AE77D95 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		730A683BFDCC9FB7BF411F0E82C44CE4 /* ZYFileToolDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZYFileToolDemo.modulemap; sourceTree = "<group>"; };
+		7CA8BF45AA721AA2B4FA23B939257288 /* Pods_ZYFileToolDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZYFileToolDemo_Tests.framework; path = "Pods-ZYFileToolDemo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95CD8A6B56A51199B0E9518EDAC58278 /* Pods-ZYFileToolDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYFileToolDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9BA0319C21E76165DCA72B628FCD69B0 /* ZYFileToolDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYFileToolDemo-umbrella.h"; sourceTree = "<group>"; };
+		A003968489A457D11CD4E7A8854F366B /* Pods-ZYFileToolDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYFileToolDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A186BC49B3DDC85D29923C70AFF6B28C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA007251A5D90EBDE143A3DB1F998651 /* Pods-ZYFileToolDemo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYFileToolDemo_Tests-resources.sh"; sourceTree = "<group>"; };
+		B19FC92ACD0A2E0C06388EEA8D2ADD4D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB04DC28890511D5E95D60C55AF6D957 /* Pods-ZYFileToolDemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZYFileToolDemo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BEBBBCC8408C368C0A5A6D62092EF192 /* Pods-ZYFileToolDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYFileToolDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BF91C728C6180889DC94C604091D279B /* ZYFileToolDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZYFileToolDemo.framework; path = ZYFileToolDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22D68ED60F07538F70F5510A839C7BA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZYFileToolDemo/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		C68B54142761293B773AC75A4A5FB214 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C90F57B21848351C970C0D424812E27D /* Pods_ZYFileToolDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZYFileToolDemo_Example.framework; path = "Pods-ZYFileToolDemo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0313F9C48A53A8F90C01D0A1B0C9E25 /* Pods-ZYFileToolDemo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYFileToolDemo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D3562ED8F35857E5C5A6448A896DD9A0 /* Pods-ZYFileToolDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYFileToolDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D659DE3FE560497A30AFC814E2AB5410 /* Pods-ZYFileToolDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYFileToolDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D84665B5BF19B16139C60F8E8976D623 /* Pods-ZYFileToolDemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZYFileToolDemo_Example-umbrella.h"; sourceTree = "<group>"; };
+		DF344156EDA2A0E70B9155C12E1CA34B /* Pods-ZYFileToolDemo_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYFileToolDemo_Example-resources.sh"; sourceTree = "<group>"; };
+		EC5BAF970D19A4996A6870455916D34F /* Pods-ZYFileToolDemo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYFileToolDemo_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F250107FF1E032936724584FE6549A60 /* ZYFileToolDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZYFileToolDemo.xcconfig; sourceTree = "<group>"; };
+		F74436043C9A46C06F70ED5732C20B88 /* ZYFileTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZYFileTool.h; path = ZYFileToolDemo/Classes/ZYFileTool.h; sourceTree = "<group>"; };
+		F9B53F654413DBD407A4D456BA28226C /* Pods-ZYFileToolDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYFileToolDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FF8AA591CECE7870681AD7231E2368CF /* Pods-ZYFileToolDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZYFileToolDemo_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0ED6B1B4A048BECBA8B38E28D3C58BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E781649F6596B3CCBF01E7D30340A4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1363F3A2674ACE4CF884859579CFCF21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D5A9C5B11FAB34B5E50B01858386D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EF982324B9EB315FBC9FF51F051422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				595D1E9789F4ED9B7C7268F9D2DC1B6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E724290B807425304F335FC2F8EF9C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C90F57B21848351C970C0D424812E27D /* Pods_ZYFileToolDemo_Example.framework */,
+				7CA8BF45AA721AA2B4FA23B939257288 /* Pods_ZYFileToolDemo_Tests.framework */,
+				BF91C728C6180889DC94C604091D279B /* ZYFileToolDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		420311CF73C7E0B36F25E118777DDC11 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9C2B5413FB0550389B8BDE19D91592A /* Pods-ZYFileToolDemo_Example */,
+				83B43CB0E051F289E59F3F98F6C12596 /* Pods-ZYFileToolDemo_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5FD569974EA707B64AD93498ED6A8064 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				529E7F0FAB241F4199AC0E480AE77D95 /* Info.plist */,
+				730A683BFDCC9FB7BF411F0E82C44CE4 /* ZYFileToolDemo.modulemap */,
+				F250107FF1E032936724584FE6549A60 /* ZYFileToolDemo.xcconfig */,
+				3D757ABC450BB876E050EDC0F2F65F69 /* ZYFileToolDemo-dummy.m */,
+				450F3A7D62C0E62B336B06D164FC254F /* ZYFileToolDemo-prefix.pch */,
+				9BA0319C21E76165DCA72B628FCD69B0 /* ZYFileToolDemo-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZYFileToolDemo";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E2CDBBC724E844E5B76EF983E32F33B7 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0E724290B807425304F335FC2F8EF9C1 /* Products */,
+				420311CF73C7E0B36F25E118777DDC11 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83B43CB0E051F289E59F3F98F6C12596 /* Pods-ZYFileToolDemo_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B19FC92ACD0A2E0C06388EEA8D2ADD4D /* Info.plist */,
+				FF8AA591CECE7870681AD7231E2368CF /* Pods-ZYFileToolDemo_Tests.modulemap */,
+				D0313F9C48A53A8F90C01D0A1B0C9E25 /* Pods-ZYFileToolDemo_Tests-acknowledgements.markdown */,
+				164143D1BA5D50FD64D92BE356A2646C /* Pods-ZYFileToolDemo_Tests-acknowledgements.plist */,
+				4DEFB9F80E9A21BB02870B4C99B45D00 /* Pods-ZYFileToolDemo_Tests-dummy.m */,
+				EC5BAF970D19A4996A6870455916D34F /* Pods-ZYFileToolDemo_Tests-frameworks.sh */,
+				AA007251A5D90EBDE143A3DB1F998651 /* Pods-ZYFileToolDemo_Tests-resources.sh */,
+				BB04DC28890511D5E95D60C55AF6D957 /* Pods-ZYFileToolDemo_Tests-umbrella.h */,
+				D3562ED8F35857E5C5A6448A896DD9A0 /* Pods-ZYFileToolDemo_Tests.debug.xcconfig */,
+				BEBBBCC8408C368C0A5A6D62092EF192 /* Pods-ZYFileToolDemo_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZYFileToolDemo_Tests";
+			path = "Target Support Files/Pods-ZYFileToolDemo_Tests";
+			sourceTree = "<group>";
+		};
+		98B7806957579C7AD9AF7A83E899A32D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C68B54142761293B773AC75A4A5FB214 /* LICENSE */,
+				05640A95BED9652BF8F174000989CB20 /* README.md */,
+				46DBC9BDDC9C344BCDA32AD31BE8A25D /* ZYFileToolDemo.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4800DD59676CFEAB582BDCF3EC1A540 /* ZYFileToolDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C22D68ED60F07538F70F5510A839C7BA /* ReplaceMe.m */,
+				F74436043C9A46C06F70ED5732C20B88 /* ZYFileTool.h */,
+				02E60AAD10010A1F6BEED20EC7F99EF0 /* ZYFileTool.m */,
+				98B7806957579C7AD9AF7A83E899A32D /* Pod */,
+				5FD569974EA707B64AD93498ED6A8064 /* Support Files */,
+			);
+			name = ZYFileToolDemo;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E2CDBBC724E844E5B76EF983E32F33B7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4800DD59676CFEAB582BDCF3EC1A540 /* ZYFileToolDemo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F9C2B5413FB0550389B8BDE19D91592A /* Pods-ZYFileToolDemo_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A186BC49B3DDC85D29923C70AFF6B28C /* Info.plist */,
+				4139304E513A59FE6371E94AFD9A3ECD /* Pods-ZYFileToolDemo_Example.modulemap */,
+				2CD66AC477E32D0C921D5A6190E08291 /* Pods-ZYFileToolDemo_Example-acknowledgements.markdown */,
+				D659DE3FE560497A30AFC814E2AB5410 /* Pods-ZYFileToolDemo_Example-acknowledgements.plist */,
+				51A403DBFD2B0E7D776E9D0012B63A86 /* Pods-ZYFileToolDemo_Example-dummy.m */,
+				A003968489A457D11CD4E7A8854F366B /* Pods-ZYFileToolDemo_Example-frameworks.sh */,
+				DF344156EDA2A0E70B9155C12E1CA34B /* Pods-ZYFileToolDemo_Example-resources.sh */,
+				D84665B5BF19B16139C60F8E8976D623 /* Pods-ZYFileToolDemo_Example-umbrella.h */,
+				95CD8A6B56A51199B0E9518EDAC58278 /* Pods-ZYFileToolDemo_Example.debug.xcconfig */,
+				F9B53F654413DBD407A4D456BA28226C /* Pods-ZYFileToolDemo_Example.release.xcconfig */,
+			);
+			name = "Pods-ZYFileToolDemo_Example";
+			path = "Target Support Files/Pods-ZYFileToolDemo_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0965AAF993BC9A3134ADAA10C41A7D5C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F691926B0B747BFEC3F1A6ACF562D9A /* ZYFileTool.h in Headers */,
+				D3A79523DFAF6AC982013113707CDE28 /* ZYFileToolDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A1DAA37AC9427592BAB6C59FC15FAB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8587022796827EA97344EC36C77ED9A /* Pods-ZYFileToolDemo_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966E0CC1E22D3698845C7C5DF3D4EA7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1E08E4F9DF978DAAE09306BAF87D37 /* Pods-ZYFileToolDemo_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2443492BAC5751A613952A258BC2210A /* ZYFileToolDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F016FB00EF5E94428196283986D29D0 /* Build configuration list for PBXNativeTarget "ZYFileToolDemo" */;
+			buildPhases = (
+				0965AAF993BC9A3134ADAA10C41A7D5C /* Headers */,
+				273ED1266FAE905E7115D91139DFF6C6 /* Sources */,
+				0ED6B1B4A048BECBA8B38E28D3C58BB0 /* Frameworks */,
+				0D282097F9E40FB0E4ACC19520B8C816 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYFileToolDemo;
+			productName = ZYFileToolDemo;
+			productReference = BF91C728C6180889DC94C604091D279B /* ZYFileToolDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		37D3CD0F499681A90C69C059EBFF4033 /* Pods-ZYFileToolDemo_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB8C3D85EA63915E12296AE5DED324B /* Build configuration list for PBXNativeTarget "Pods-ZYFileToolDemo_Example" */;
+			buildPhases = (
+				966E0CC1E22D3698845C7C5DF3D4EA7E /* Headers */,
+				67E387FDFDB6743D0041F546DACB35CF /* Sources */,
+				1363F3A2674ACE4CF884859579CFCF21 /* Frameworks */,
+				0EED3C64CAFF51BEFE7C43760B335FD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9190628762E2E17528BBFAC308B3E07E /* PBXTargetDependency */,
+			);
+			name = "Pods-ZYFileToolDemo_Example";
+			productName = "Pods-ZYFileToolDemo_Example";
+			productReference = C90F57B21848351C970C0D424812E27D /* Pods_ZYFileToolDemo_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE3C5D4D2DB12CE3B0AA2BF1DFF5316D /* Pods-ZYFileToolDemo_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8863A5D95BDE872E6433D9237D2C053A /* Build configuration list for PBXNativeTarget "Pods-ZYFileToolDemo_Tests" */;
+			buildPhases = (
+				3A1DAA37AC9427592BAB6C59FC15FAB1 /* Headers */,
+				89C53699E443C0F18CD10A99AE6742EA /* Sources */,
+				82EF982324B9EB315FBC9FF51F051422 /* Frameworks */,
+				153C593AB554EA62E84A06BD5EEFD7EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0880A5EDD82AC37B3293608E6BC42946 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZYFileToolDemo_Tests";
+			productName = "Pods-ZYFileToolDemo_Tests";
+			productReference = 7CA8BF45AA721AA2B4FA23B939257288 /* Pods_ZYFileToolDemo_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0E724290B807425304F335FC2F8EF9C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37D3CD0F499681A90C69C059EBFF4033 /* Pods-ZYFileToolDemo_Example */,
+				FE3C5D4D2DB12CE3B0AA2BF1DFF5316D /* Pods-ZYFileToolDemo_Tests */,
+				2443492BAC5751A613952A258BC2210A /* ZYFileToolDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D282097F9E40FB0E4ACC19520B8C816 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EED3C64CAFF51BEFE7C43760B335FD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		153C593AB554EA62E84A06BD5EEFD7EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		273ED1266FAE905E7115D91139DFF6C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169A7C459CC0B1E29065C4B49F7E7D09 /* ReplaceMe.m in Sources */,
+				F622C1F610A8D8B3F27B9D7CD0B93975 /* ZYFileTool.m in Sources */,
+				ABFF9B22ECDE2ADD19D07B9FE6645AEB /* ZYFileToolDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E387FDFDB6743D0041F546DACB35CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5153038CA586609CBF97E70746F1B9 /* Pods-ZYFileToolDemo_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C53699E443C0F18CD10A99AE6742EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9055BFABBE2DB282C2069165CB7B315 /* Pods-ZYFileToolDemo_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0880A5EDD82AC37B3293608E6BC42946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZYFileToolDemo_Example";
+			target = 37D3CD0F499681A90C69C059EBFF4033 /* Pods-ZYFileToolDemo_Example */;
+			targetProxy = A26FF8446665E844E5B8EE2424DD159B /* PBXContainerItemProxy */;
+		};
+		9190628762E2E17528BBFAC308B3E07E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZYFileToolDemo;
+			target = 2443492BAC5751A613952A258BC2210A /* ZYFileToolDemo */;
+			targetProxy = A0673130E52C08DEF5088552517B76B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3A2A28470194CA275006E0E7C42B52A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3562ED8F35857E5C5A6448A896DD9A0 /* Pods-ZYFileToolDemo_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYFileToolDemo_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYFileToolDemo_Tests/Pods-ZYFileToolDemo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6AF2A1C114CE77C90F5D1BCA49115EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F250107FF1E032936724584FE6549A60 /* ZYFileToolDemo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZYFileToolDemo/ZYFileToolDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZYFileToolDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZYFileToolDemo/ZYFileToolDemo.modulemap";
+				PRODUCT_MODULE_NAME = ZYFileToolDemo;
+				PRODUCT_NAME = ZYFileToolDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		894A1844951B96E2F357AB1040B63DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEBBBCC8408C368C0A5A6D62092EF192 /* Pods-ZYFileToolDemo_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYFileToolDemo_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYFileToolDemo_Tests/Pods-ZYFileToolDemo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BBEEE9183B61215F6345A400B9044DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95CD8A6B56A51199B0E9518EDAC58278 /* Pods-ZYFileToolDemo_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYFileToolDemo_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYFileToolDemo_Example/Pods-ZYFileToolDemo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C07266A40BB77FDF8D23DC481C964373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F250107FF1E032936724584FE6549A60 /* ZYFileToolDemo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZYFileToolDemo/ZYFileToolDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZYFileToolDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZYFileToolDemo/ZYFileToolDemo.modulemap";
+				PRODUCT_MODULE_NAME = ZYFileToolDemo;
+				PRODUCT_NAME = ZYFileToolDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C8F15917E729019D555CF097FF0D6B2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9B53F654413DBD407A4D456BA28226C /* Pods-ZYFileToolDemo_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYFileToolDemo_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYFileToolDemo_Example/Pods-ZYFileToolDemo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73625DEBD810B78234FA1958C191C8C /* Debug */,
+				85B95B1234E227C814CCC2C7902D0916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8863A5D95BDE872E6433D9237D2C053A /* Build configuration list for PBXNativeTarget "Pods-ZYFileToolDemo_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2A28470194CA275006E0E7C42B52A4 /* Debug */,
+				894A1844951B96E2F357AB1040B63DB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F016FB00EF5E94428196283986D29D0 /* Build configuration list for PBXNativeTarget "ZYFileToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07266A40BB77FDF8D23DC481C964373 /* Debug */,
+				6AF2A1C114CE77C90F5D1BCA49115EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB8C3D85EA63915E12296AE5DED324B /* Build configuration list for PBXNativeTarget "Pods-ZYFileToolDemo_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEEE9183B61215F6345A400B9044DA2 /* Debug */,
+				C8F15917E729019D555CF097FF0D6B2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
