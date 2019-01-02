@@ -28,6 +28,8 @@
     [self saveImage];
     
     [self demoTest];
+    
+    [self removeFileOrDir];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -58,21 +60,40 @@
     
     
     NSString *newPath = [path stringByAppendingPathComponent:@"image.png"];
-    NSDictionary<NSFileAttributeKey, id> *dic = [ZYFileTool attributeOfItemAtPath:newPath errorBlock:nil];
-    NSLog(@"文件信息%@ -- %@",dic,dic[NSFileType]);
     
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wnonnull"
+    NSDictionary<NSFileAttributeKey, id> *dic = [ZYFileTool attributeOfItemAtPath:newPath errorBlock:nil];
+#pragma clang diagnostic pop
+    
+    NSLog(@"文件信息全部%@ -- 路径对应的文件类型%@",dic,dic[NSFileType]);
+    
+     //获取文件的大小
     NSString *fileSize = [ZYFileTool sizeOfFileAtPath:filePath errorBlock:^(NSError *error) {
         NSLog(@"%@",error);
     }];
     
+    //获取path路径下文件列表（支持浅遍历和深度遍历）
     NSArray *listArr = [ZYFileTool listFileInDirectoryAtPath:path searchDeeply:NO errorBlock:^(NSError *error) {
         NSLog(@"Just errors %@",error);
     }];
     
+    //获取文件夹的大小，深度遍历子文件
     NSString *totalSize = [ZYFileTool sizeOfDirectoryAtPath:path searchDeeply:YES errorBlock:^(NSError *error) {
         NSLog(@"%@",error);
     }];
     
+    NSLog(@"fileSize = %@ -- listArr = %@ --totalSize = %@",fileSize, listArr, totalSize);
+}
+
+- (void)removeFileOrDir{
+    [ZYFileTool removeItemAtPath:self.dirPath successBlock:^(bool status) {
+        if (status) {
+            NSLog(@"移除文件夹成功");
+        }else{
+            NSLog(@"移除文件夹失败");
+        }
+    }];
 }
 
 
