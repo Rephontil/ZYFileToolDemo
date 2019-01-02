@@ -7,6 +7,7 @@
 
 ## Example
 
+针对系统NSFileManager封装的文件工具类，提供了对文件操作的便携式封装。支持pod方式集成使用：pod 'ZYFileTool'，或者直接将Classes里面的文件拖入项目使用。
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
@@ -17,7 +18,7 @@ ZYFileToolDemo is available through [CocoaPods](https://cocoapods.org). To insta
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'ZYFileToolDemo'
+pod 'ZYFileTool'
 ```
 
 ## Author
